@@ -13,7 +13,7 @@ const io = socketIo(server, {
   },
 });
 
-const ALPHA_VANTAGE_API_KEY = "6D4MPJE3T7YP8SPN";
+const ALPHA_VANTAGE_API_KEY = "key";
 const SYMBOLS = ["AAPL", "GOOGL", "AMZN"];
 
 async function fetchStockData(symbol) {

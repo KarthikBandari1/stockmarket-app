@@ -7,9 +7,8 @@ const db = new sqlite3.Database(":memory:");
 passport.use(
   new GoogleStrategy(
     {
-      clientID:
-        "706503932934-hngv4e9oehc4415m99o7rogndoq019hi.apps.googleusercontent.com",
-      clientSecret: "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",
+      clientID: "id",
+      clientSecret: "scret",
       callbackURL: "/auth/google/callback",
     },
     (accessToken, refreshToken, profile, done) => {
